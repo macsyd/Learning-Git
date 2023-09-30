@@ -5,13 +5,19 @@ Here is an [official cheat sheet](https://education.github.com/git-cheat-sheet-e
 
 ## Some important terms to know:
 
-**Repository:** Is a central “folder” where git will be saving all the files to and their progress
+**Repository:** Is a central “folder” where git will be saving all the files to and their progress.
+
+**Remote:** This is where the repository gets stored so everyone can access it. It is "up in the cloud".
+
+**Local:** This is the copy of your project that is stored on your computer and only you have access to it. It is usually connected to the remote and you "push" your changes from the local copy to the remote.
 
 **Branch:** In a project the main program would be considered the stem and a branch would be a copy of all the files from the stem where you can tinker with the files to edit the project without affecting the main project. A branch can then be merged back into the main project with the merging command.
 
 **Merge:** Will bring a branch back to the main stem with auto merge which essentially will analyze and compare all the files from the branch and main stem and keep the most recently saved file of each (this can be overridden). 
 
 **Pull request:** Make a request to merge your branch into the main branch in the repository. Another person can review the changes made on your branch, give feedback, and then merge your branch into the main one
+
+**Push:** Send your changes from the local repository to the remote one.
 
 ## Some important git commands:
 `git init`
